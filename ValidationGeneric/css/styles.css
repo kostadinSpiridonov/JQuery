@@ -1,0 +1,26 @@
+.main-container{
+    width:100%;
+    padding:20px;
+}
+
+#sign-up-form{
+    width:600px; 
+    margin:0 auto;
+}
+
+.margin-0{
+    margin:0px;
+}
+
+#teamSizeInput{
+    height:80px;
+}
+
+.submit-container{
+    margin-top:10px;
+}
+.error{
+    color:red;
+    font-size: 12px;
+    margin: 0px;
+}
