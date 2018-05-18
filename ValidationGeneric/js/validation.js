@@ -52,17 +52,17 @@ function validateForm() {
     var validationResult = true;
 
     // Validate all inputs in the form
-    if (validateControls(formInputs)) {
+    if (!validateControls(formInputs)) {
         validationResult = false;
     }
 
     // Validate all textareas in the form
-    if (validateControls(formTextAreas)) {
+    if (!validateControls(formTextAreas)) {
         validationResult = false;
     }
 
     // Validate all selects in the form
-    if (validateControls(formSelects)) {
+    if (!validateControls(formSelects)) {
         validationResult = false;
     }
 
